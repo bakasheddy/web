@@ -48,12 +48,12 @@
 
 
           <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
-            <li><a href="../index.html" title="" class="active">001</a></li>
-            <li><a href="../index.html" title="">002</a></li>
-            <li><a href="../index.html" title="">003</a></li>
-            <li><a href="../index.html" title="">004</a></li>
-            <li><a href="../index.html" title="">005</a></li>
-            <li><a href="../index.html" title="">006</a></li>
+            <li><a href="./concop.html" title="" class="active">001</a></li>
+            <li><a href="./retainme.html" title="">002</a></li>
+            <li><a href="./olympics.html" title="">003</a></li>
+            <li><a href="./tennis.html" title="">004</a></li>
+            <li><a href="./electricity.html" title="">005</a></li>
+            <li><a href="./fordgo.html" title="">006</a></li>
           </ul>
 
 
@@ -65,18 +65,24 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="">
+          <img src="../assets/images/andrey-metelev-qpAOxji4dAo-unsplash.jpg" class="img-responsive" alt="">
           <div class="card-container">
             <div class="text-center">
-              <h1 class="h2">001 : Fringilla sit amet</h1>
+              <h1 class="h2">005 : Time Series Forecasting of Electricity Prices of a District</h1>
             </div>
-            <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies, nisl nunc pulvinar ligula, id sodales
-              arcu sapien in nisi. Quisque libero enim, mattis non augue posuere, venenatis dapibus urna.</p>
+            <p>In this project, i explored and build time series forecasting model for measurements of electric power
+              consumption in one household with a one-minute sampling rate over a period of almost 4 years.</p>
 
             <blockquote>
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
-              <small class="pull-right">Irina Martin</small>
+              <p>About Dataset</p>
             </blockquote>
+            <p>
+            <p>This data set was provided by Hamoye where i did my internship as a test of our time-series analysis
+              skill. the data contains 92016 entries and 5 columns which consists of FullDate, Tmax, SysLoad, GasPrice
+              and ElecPrice as column names. the dataset captures the power consumption of a building for a period of 11
+              years (2010 - 2021)</p>
+            </p>
+
           </div>
         </div>
 
@@ -85,18 +91,48 @@
         <div class="col-md-8 col-md-offset-2 section-container-spacer">
           <div class="row">
             <div class="col-xs-12 col-md-6">
-              <img src="../assets/images/work001-02.jpg" class="img-responsive" alt="">
-              <p>Menphis skyline</p>
+              <blockquote>
+                <p>Model Evaluation</p>
+              </blockquote>
+              <p>The model's performance was evaluated using three metrics: Mean Absolute Error (MAE), Mean Absolute
+                Percentage Error (MAPE), and Root Mean Squared Error (RMSE).</p>
+              <p>The evaluations of the FBProphet model are as follows:
+
+                MAE: 70.817
+
+                MAPE: 223.174%
+
+                RMSE: 91.507.</p>
             </div>
-            <div class="col-xs-12 col-md-6">
-              <img src="../assets/images/work001-03.jpg" class="img-responsive" alt="">
-              <p>Menphis skyline</p>
-            </div>
+            <blockquote>
+              <p>Model Analysis</p>
+            </blockquote>
+            <p>Based on the evaluation metrics, the FBProphet model performed moderately well in forecasting the
+              Electric Price of the building. The MAE value of 70.817 indicates that on average, the model's predictions
+              were off by around 71 units. The MAPE value of 223.174% suggests that the model's predictions were, on
+              average, 223% off from the actual sales figures. Finally, the RMSE value of 91.507 indicates that there
+              was a root mean squared error of 92 units in the model's predictions.</p>
+
+            <blockquote>
+              <p>Conclusion</p>
+            </blockquote>
+            <p>While the fbprophet model provided a good starting point for the project, the evaluation results show
+              that it may not be accurate enough for reliable predictions. However, there is still room for improvement.
+              The model's evaluations suggest that it may be overestimating or underestimating the Electric prices. In
+              order to improve the model's accuracy, further exploration and experimentation with different algorithms,
+              models, and parameters is recommended.</p>
+
           </div>
         </div>
 
         <div class="col-xs-12">
-          <img src="../assets/images/work001-04.jpg" class="img-responsive" alt="">
+          <h4>Click <a
+              href="https://github.com/bakasheddy/time-series-forecasting-of-electricity-prices-of-a-District.git">here</a>
+            to check the full project on
+            GitHub.</h4>
+
+
+
         </div>
 
       </div>
